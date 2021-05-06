@@ -11,7 +11,7 @@ def calc_inv_kin(pose):
 
     # Die erwuenschte Pose des Endeffektors:
     # [x, y, z, x, y, z], [mm, mm, mm, rad, rad, rad]
-    pose = np.array([120, 0, 120, 0, 0, 0])
+    # pose = np.array([120, 0, 120, 0, 0, 0])
     x_ref =  np.array([[pose[0]], [pose[1]], [pose[2]]])
     # Definition np.arrayvon "Ellbogen" und "Handgelenk"
     elbow=-1 # 1: Ellbogen nach oben, -1: Ellbogen nach unten
